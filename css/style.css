@@ -1,0 +1,110 @@
+:root{
+    --bgcolor:#353A40;
+    --textcolor: white;
+    --colorbtn:#27A844;
+    --colorgrey: #B8B8B8; 
+    }
+/* main{
+    background-image: url('../Assets/hawaii.jpg');
+    height: 100vh;
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}*/
+.bgcolor{
+    background-color: var(--bgcolor);
+}
+.logo{
+    color: var(--textcolor);
+}
+.colorgray{
+    color:var(--colorgrey);
+}
+#colorText{
+    color: var(--textcolor);
+}
+#colorTicket{
+    color:#4FB331 ;
+}
+.filter{
+    filter:brightness(.6);
+}
+
+h1{
+    font-size: 1em;
+}
+.letra{
+    font-size: 0.7em;
+}
+.boton{
+    font-size: 0.7em;
+}
+
+.btn-java{
+    background-color: #FEC107;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+.btn-react{
+    background-color: #17A2B9;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.btn-neg{
+    background-color: #7c7c7d;
+    color:var(--textcolor);
+    padding: 0px;
+    margin: 0px;
+}
+.btn-start{
+    background-color: rgb(226, 25, 25);
+    color: var(--textcolor);
+    padding: 0;
+    margin: 0;
+}
+.button{
+        background-color: #96C93E;
+        border: 1px solid #96C93E;
+        border-radius: 0.3em;
+        width: 100%;
+        color: var(--textcolor)
+    }
+    .tith4{
+        font-size: 0.6em;
+        margin-top: 1%;
+        color:var(--bgcolor);
+         margin-bottom: 0%;
+    }
+    .honolulu{
+        color: var(--textcolor);
+        font-size: 0.7em;
+        line-height: 1.8em;
+    }
+    
+    .title-form{
+        margin: 0.2em;
+        text-align: center;
+        & h4 {
+              font-size: 0.6em;
+              margin-top: 0%;
+              color:var(--bgcolor);
+        }
+        & h2 {
+            font-size: 1.5em;
+        }
+        & p {
+            font-size: 0.7em;
+        }
+    }
+    footer{
+        background-color: #244859;
+        margin-top: 1rem;
+    }
+   footer li .nav-link{
+        color: var(--textcolor); 
+        font-size: 0.9em;
+        
+    }
