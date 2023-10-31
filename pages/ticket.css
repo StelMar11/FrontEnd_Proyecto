@@ -1,0 +1,21 @@
+:root{
+    --bgcolor:#353A40;
+    --textcolor: white;
+    --colorbtn:#27A844;
+    --colorgrey: #B8B8B8; 
+}
+.bgcolor{
+    background-color: var(--bgcolor);
+}
+.logo{
+    color: var(--textcolor);
+}
+.colorgray{
+    color:var(--colorgrey);
+}
+#colorText{
+    color: var(--textcolor);
+}
+#colorTicket{
+    color:#4FB331 ;
+}

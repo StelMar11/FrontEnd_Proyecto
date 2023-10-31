@@ -108,3 +108,38 @@ h1{
         font-size: 0.9em;
         
     }
+   @media (max-width: 600px){
+    
+        h1{
+            font-size: 0.5em;
+        }
+        .letra{
+            font-size: 0.4em;
+        }
+        .boton{
+            font-size: 0.3em;
+        }
+    }
+@media (max-width: 480px){
+    
+.cambio{
+    display:grid;
+    align-items: flex-start;
+    
+
+}
+.boton{
+    font-size: 0.2em;
+   }
+}
+@media (max-width: 290px){
+    h1{
+        font-size: 0.3em;
+    }
+    .letra{
+        font-size: 0.2em;
+    }
+    .boton{
+        font-size: 0.1em;
+    }
+}
