@@ -20,6 +20,7 @@
 }
 .colorgray{
     color:var(--colorgrey);
+    
 }
 #colorText{
     color: var(--textcolor);
