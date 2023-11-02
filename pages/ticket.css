@@ -28,6 +28,31 @@
 h5{
     text-align: center;
 }
+.card{
+    border-radius: 0%;
+}
 .card-body{
     text-align: center;
 }
+.centrar{
+    text-align: center;
+}
+.container{
+    width: 100%;
+}
+.btnColor{
+    background-color: #96C93E;
+    color: white;
+    margin:0.5em;
+    margin-bottom: 2em;
+    width: 45%;
+    }
+    footer{
+        background-color: #244859;
+        margin-top: 1rem;
+    }
+   footer li .nav-link{
+        color: var(--textcolor); 
+        font-size: 0.9em;
+        
+    }
