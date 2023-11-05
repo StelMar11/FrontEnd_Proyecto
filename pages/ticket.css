@@ -40,12 +40,20 @@ h5{
 .container{
     width: 100%;
 }
+.botones{
+    display:flex;
+}
 .btnColor{
     background-color: #96C93E;
     color: white;
     margin:0.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     width: 45%;
+    }
+   
+    .alert{
+        padding: 0;
+        background-color: lightblue;
     }
     footer{
         background-color: #244859;
